@@ -6,4 +6,12 @@ This is an HTML5 and CSS3 combine project. This project will contain education p
 
 Updating the home page of EduConnect website, in which I added an hero seciton. In hero section I added the website Intro that what we will serve for new learners. then design it in css with grid css property. 
 
-After that I make an another seciton for corses intro. That which courses we will offer. I design cousre seciton in grid in which I added courses card description. and then make the card with flexbox layout and give it box-shadow effect and also apply hover transition.
+After that I make an another seciton for corses intro. That which courses we will offer. I design cousre seciton in grid in which I added courses card description. and then make the card with flexbox layout and give it box-shadow effect and also apply hover transition. 
+
+
+Now, after this I added teacher intro sections in which added teacher information such as picture, name, and experiences. and use grid css property to make the design.
+
+
+And after this i added that who's trust on us. in this section I added company's logos that these company are trusted on courses. 
+
+And lastly I added footer section. In footer Seciton I added website name and it's social media links, address, and contact details.

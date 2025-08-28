@@ -15,6 +15,11 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 span{
@@ -45,6 +50,9 @@ nav ul li a:hover, a:active{
     background: darkorange;
 }
 
+#main{
+    margin-top: 70px;
+}
 
 .hero{
     width: 100%;
@@ -95,6 +103,7 @@ nav ul li a:hover, a:active{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 30px;
     padding: 1rem;
+    margin-top: 1.5%;
 }
 
 .card{
@@ -131,4 +140,97 @@ nav ul li a:hover, a:active{
 
 .card button:hover, button:active{
     background-color: darkorange;
+}
+
+.our-teacher{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+    color: #435886;
+}
+
+.teacher-intro{
+    margin:3% 10% 5% 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.teacher{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 0.5rem;
+    background: #ecedef;
+    box-shadow: 0 4px 8px rgb(184, 180, 180);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.teacher:hover {
+      transform: scale(1.01); 
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1); 
+    }
+.teacher img{
+    width: 80%;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 45%;
+}
+
+.teacher h2{
+    text-align: center;
+    margin: 4% 0;
+}
+
+.teacher p{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.trusted-by{
+    margin: auto;
+    padding: 1.6rem;
+}
+
+.trusted-by h2{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 40px;
+    color: #435886;
+}
+
+.cmpny-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    background: #4375e0;
+    padding: 30px;
+    padding-top: 8px;
+    margin-top: 5%;
+}
+
+footer h1{
+    color: white;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
 }
