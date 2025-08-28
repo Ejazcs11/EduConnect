@@ -3,3 +3,132 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Arial, sans-serif;
+    background: #F9FAFB;
+}
+
+header{
+    background: #4375e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+span{
+    color: darkorange;
+}
+header h1{
+    color: #F9FAFB;
+}
+
+nav ul{
+    display: flex;
+    gap:3rem;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #F9FAFB;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+nav ul li a:hover, a:active{
+    background: darkorange;
+}
+
+
+.hero{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+
+}
+
+.hero img{
+    width: 100%;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.intro h2{
+    margin: 5% 0 5% 3%;
+    color: #4375e0;
+}
+
+.intro p{
+    line-height: 35px;
+    letter-spacing: 2px;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.intro button{
+    background: #4375e0;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 3.5px;
+    margin: 1rem 0 0 1rem;
+}
+
+.intro button a{
+    text-decoration: none;
+    color: white;
+}
+
+.intro button:hover, button:active{
+    background-color: darkorange;
+}
+
+.courses-intro{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 1rem;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0.5rem;
+    box-shadow: 0 4px 8px rgba(127, 122, 122);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+      transform: scale(1.05); 
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3); 
+    }
+
+
+.card img{
+    border-radius: 3px 3px 0 0;
+}
+
+.card button{
+    background: #4375e0;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3.5px;
+}
+
+.card button a{
+    text-decoration: none;
+    color: white;
+}
+
+.card button:hover, button:active{
+    background-color: darkorange;
+}
