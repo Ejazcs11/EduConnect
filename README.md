@@ -26,3 +26,11 @@ first I take main section with id (main courses) and give it flexbox layout. and
 I take dev for course details with class (course-details) and apply grid layout. and apply flexbox layout on the course-info and instructor-info. 
 
 And lastly connect the cousre webpage with home webpage through anchor tag and also connect the course section of home page with course page through anchor tag.
+
+
+Lastly, I have added the about and contact information of EduConnect website and connect it with home page through navigation links.
+
+This is how made this porject with HTML and CSS. 
+
+
+The End!

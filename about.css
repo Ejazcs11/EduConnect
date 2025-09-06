@@ -1,0 +1,57 @@
+#main-about{
+margin-top: 70px;
+}
+
+.about-heading{
+    color: #4375e0;
+    text-align: center;
+    margin-top: 85px;
+}
+
+.our-intro{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 1rem;
+    margin: 3%;
+    box-shadow: 0px 1.5px 3.0px gray;
+
+}
+
+.our-intro:hover{
+      box-shadow: 1px 3px 5px gray;
+}
+
+.our-intro p{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+    color:rgb(255, 179, 0);
+}
+
+.our-intro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.vission-mission{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 1rem;
+    margin: 3%;
+    box-shadow: 0px 0.5px 1px gray;
+}
+
+
+
+.mission, .vission {
+    color: black;
+    font-weight: bold;
+    line-height: 2.5;
+    padding: 20px;
+}
+
+.mission:hover, .vission:hover{
+    box-shadow: 1px 3px 5px gray;
+}
