@@ -15,3 +15,14 @@ Now, after this I added teacher intro sections in which added teacher informatio
 And after this i added that who's trust on us. in this section I added company's logos that these company are trusted on courses. 
 
 And lastly I added footer section. In footer Seciton I added website name and it's social media links, address, and contact details.
+
+
+After one week of gap today i start work on this website.
+
+I design the cousre section. In which I added four courses details along with it's instructor.
+
+first I take main section with id (main courses) and give it flexbox layout. and then put in it input search bar and course details. 
+
+I take dev for course details with class (course-details) and apply grid layout. and apply flexbox layout on the course-info and instructor-info. 
+
+And lastly connect the cousre webpage with home webpage through anchor tag and also connect the course section of home page with course page through anchor tag.

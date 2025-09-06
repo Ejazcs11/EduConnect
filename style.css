@@ -126,12 +126,27 @@ nav ul li a:hover, a:active{
     border-radius: 3px 3px 0 0;
 }
 
+.card a{
+     background: #4375e0;
+    padding: 0.4rem 1.0rem;
+    border: none;
+    border-radius: 3.5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.card a:hover, a:active{
+    background-color: darkorange;
+}
 .card button{
     background: #4375e0;
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 3.5px;
+    
 }
+
 
 .card button a{
     text-decoration: none;
@@ -210,7 +225,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     background: #4375e0;
-    padding: 30px;
+    padding: 1rem;
     padding-top: 8px;
     margin-top: 5%;
 }
